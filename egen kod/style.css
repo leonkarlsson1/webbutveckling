@@ -1,4 +1,4 @@
-body{
+.wrapper{
     background-color:grey;
     color:white;
     display:grid;
@@ -11,18 +11,30 @@ body{
     "footer footer";
 }
 
+
+li{
+    border:2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
 header{
     grid-area:header;
+    background-color:black;
 }
  
 h1{
-    text-align:center;
+    text-align:center; 
 }
 
+nav{
+    grid-area: nav;
+}
 
 nav ul{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+    padding: 0;
 
 }
 
@@ -33,6 +45,8 @@ nav li{
 
 main{
     grid-area:main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 table {
@@ -42,11 +56,20 @@ table {
   }
   
   td, th {
+    border: 2px solid rgb(2, 2, 2);
     text-align: left;
-    padding: 20px;
+    padding: 25px;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    text-align: center;
   }
+
+  tr:nth-child(even) {
+    background-color: black;
+  }
+  
+  
   
  
   
