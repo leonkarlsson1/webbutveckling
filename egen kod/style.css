@@ -18,6 +18,8 @@ li{/*Gör så att menyelemten blir stora får en viss storlek och ett visst typs
     border:2px solid black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    color:blue;
+    text-align:center;
 }
 
 header{/*gör så att min header har backgroundsfärgen svart*/
@@ -57,14 +59,15 @@ table {/*gör så det inte finns mellanrum mellan kolumernam, Border-collapse sl
     width: 100%;
   }
   
-  td, th {/*tabeller*/
-    border: 2px solid rgb(2, 2, 2);
+  td, th {/*tabeller, gör bordern svart och 2px stor, texten blir i mitten, färgen blir blåviolet, texten blir i arial */
+    border: 2px solid green;
     text-align: left;
     padding: 25px;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     width: 25%;
     text-align: center;
+    color:blueviolet;
   }
 
   tr:nth-child(even) { /*färgar halva tabellern svart*/
@@ -72,13 +75,17 @@ table {/*gör så det inte finns mellanrum mellan kolumernam, Border-collapse sl
   }
 
   h2{/*gör så att text all text som är nemd h2 blir centrerad*/
-    text-align:center
+    text-align:center;
+    color:blue;
   }
 
   p{/*gör så all text inom p blir centrerad*/
-    text-align:center
+    text-align:center;
   }
   
+  div:hover{/*Den gör så att när jag har musen över en sak så blir backgrunden blå*/
+    background-color:blue;
+  }
   
   
  
